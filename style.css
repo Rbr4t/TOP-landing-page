@@ -2,11 +2,32 @@ body {
     font-family: "roboto";
     display: flex;
     flex-direction: column;
+    
 }
-header {
+.header {
     display: inline-flex;
     align-items: center;
     justify-content: space-between;
-    margin-left: 100px;
-    margin-right: 100px;
+    background-color: #1f2937;
+    margin: 0;
+    padding-left: 150px;
+    padding-right: 150px;
+    
+    color: aliceblue;
 }
+.blank-img {
+    display: flex;
+    background-color: red;
+    width: 405px;
+    height: 175px;
+    
+    flex: 1 1 auto;
+}
+.main-start {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 auto;
+    gap: 50px;
+    
+}
+
