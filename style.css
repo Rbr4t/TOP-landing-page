@@ -58,7 +58,7 @@ a {
 
 
 .main {
-    /*color: aliceblue;*/
+    /*color: E5E7EB;*/
 }
 .main-start {
     display: flex;
@@ -72,9 +72,28 @@ a {
     font-size: 48px;
     font-weight: bold;
     color: #E5E7EB;
+    
 }
+
+.main-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.info-header {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+}
+.quote-text {
+    display: inline-flex;
+    
+}
+
+
 
 .footer {
     justify-content: center;
-    padding: ;
+    padding: 15px;
 }
