@@ -36,13 +36,14 @@ body {
 .sign-up {
     background-color: #3882F6;
     border: 0px;
-    border-radius: 10%;
+    border-radius: 10px;
     padding: 8px 18px;
     color: aliceblue;
 }
 .footer {
     justify-content: center;
     padding: 15px;
+    flex: 1;
 }
 /*for links*/
 a {
@@ -57,7 +58,9 @@ a {
 
 
 .main {
-    
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
 }
 .main-start {
     display: flex;
@@ -91,12 +94,15 @@ a {
     border: 5px;
     border-style: solid;
     border-color: rgb(83, 83, 241);
-    border-radius: 10%;
+    border-radius: 10px;
     justify-content: center;
 }
 .quote-text {
     display: inline-flex;
-    gap: 15px;
+    gap: 100px;
+    width: 100px;
+    justify-content: center;
+    text-align: center;
     
 }
 
@@ -117,4 +123,30 @@ a {
     font-size: 24px;
     text-align: right;
     font-weight: bold;
+}
+
+
+
+.main-signup {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #F9FAF8;
+    margin: 70px;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 20px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    
+}
+
+.it-is-time {
+    font-size: 24px;
+    font-weight: bold;
+}
+.second {
+    display: inline-flex;
+    border: 3px solid white;
+    
 }
