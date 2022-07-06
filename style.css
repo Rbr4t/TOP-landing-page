@@ -40,6 +40,10 @@ body {
     padding: 8px 18px;
     color: aliceblue;
 }
+.footer {
+    justify-content: center;
+    padding: 15px;
+}
 /*for links*/
 a {
     text-decoration: none;
@@ -53,7 +57,7 @@ a {
 
 
 .main {
-    /*color: E5E7EB;*/
+    
 }
 .main-start {
     display: flex;
@@ -97,8 +101,20 @@ a {
 }
 
 
+.main-quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: 50;
+    font-style: italic;
+    color: #1f2937;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 
-.footer {
-    justify-content: center;
-    padding: 15px;
+.signature {
+    font-size: 24px;
+    text-align: right;
+    font-weight: bold;
 }
