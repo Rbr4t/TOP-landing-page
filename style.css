@@ -60,6 +60,7 @@ a {
 .main {
     display: flex;
     flex-direction: column;
+    flex: 1 1 auto;
     gap: 50px;
 }
 .main-start {
@@ -102,12 +103,22 @@ a {
     gap: 100px;
     width: 100px;
     justify-content: center;
-    text-align: center;
-    
+    text-align: center;    
 }
 
-
+.container {
+    display: flex;
+    background-color: #E5E7EB;
+    justify-content: center;
+}
 .main-quote {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    flex-wrap: nowrap;
     background-color: #E5E7EB;
     font-size: 36px;
     font-weight: 50;
@@ -117,12 +128,16 @@ a {
     padding-right: 150px;
     padding-top: 50px;
     padding-bottom: 50px;
+    
+    
 }
 
 .signature {
+    
     font-size: 24px;
     text-align: right;
     font-weight: bold;
+    align-self: flex-end;
 }
 
 
@@ -132,9 +147,10 @@ a {
     justify-content: space-around;
     align-items: center;
     color: #F9FAF8;
-    margin: 70px;
+    margin: 50px;
     margin-left: 150px;
     margin-right: 150px;
+    margin-top: 0px;
     padding: 20px;
     background-color: #3882F6;
     border-radius: 10px;
